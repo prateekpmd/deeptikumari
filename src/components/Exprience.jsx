@@ -46,16 +46,6 @@ const Exprience = () => {
             </h6>
             <p className="mb-2 text-sm text-neutral-500">{experience.year}</p>
             <p className="mb-4 text-neutral-400">{experience.description}</p>
-            <div className="flex flex-wrap">
-              {experience.technologies.map((tech, index) => (
-                <span
-                  key={index}
-                  className="mr-2 mb-2 rounded  px-2 py-1 text-sm font-medium bg-gray-900 bg-opacity-25  text-neutral-400"
-                >
-                  {tech}
-                </span>
-              ))}
-            </div>
           </motion.div>
         </div>
       ))}
