@@ -17,7 +17,7 @@ const Aboutme = () => {
          initial={{opacity:0,y:-30}}
          whileInView={{opacity:1,y:0}}
          transition={{duration:1,delay:0.5 }}
-      className="text-center text-4xl lg:mt-20 sm:mt-16 xxs:mt-10 xxxs:mt-16">
+      className="text-center text-4xl lg:mt-20 sm:mt-16 xxs:mt-10 xxxs:mt-16 xxs:mb-10 xxxs:mb-6">
         About Me
       </motion.h1>
       <div className="flex flex-wrap ">
@@ -27,7 +27,7 @@ const Aboutme = () => {
           transition={{ duration: 1 }}
           className="w-full lg:w-1/2  lg:p-8   "
         >
-          <div className="flex justify-center items-center my-10 xxs:my-2 " style={{ marginTop: "-80px" }}>
+          <div className="flex justify-center items-center my-10 sm:mt-0 xxxs:mt-0 xxs:mt-0 xxs:my-2 " style={{ marginTop: "-30px" }}>
             <img
               className="rounded-2xl p-4"
               src={about}
