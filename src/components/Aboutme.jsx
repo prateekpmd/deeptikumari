@@ -1,12 +1,12 @@
 import React from "react";
 import { ABOUT_TEXT } from "../constants";
-import about from "../assets/21.png";
+import about from "../assets/2.png";
 import { motion } from "framer-motion";
 
 const Aboutme = () => {
 
   const splitText = (text) => {
-    const middleIndex = Math.floor(text.length / 2)+16;
+    const middleIndex = Math.floor(text.length / 2)-30;
     return [text.slice(0, middleIndex), text.slice(middleIndex)];
   };
 
@@ -27,7 +27,7 @@ const Aboutme = () => {
           transition={{ duration: 1 }}
           className="w-full lg:w-1/2  lg:p-8   "
         >
-          <div className="flex justify-center items-center my-10 xxs:my-2 ">
+          <div className="flex justify-center items-center my-10 xxs:my-2 " style={{ marginTop: "-80px" }}>
             <img
               className="rounded-2xl p-4"
               src={about}
@@ -45,7 +45,7 @@ const Aboutme = () => {
           <div className="flex flex-col justify-center items-center  lg:my-10">
            
             <p className="my-2 max-w-xl py-6 font-light tracking-tighter lg:text-start md:text-center sm:text-center xxs:text-center xxxs:text-center ">
-              {part1}
+            {part1}
             </p>
             <p className="my-2 max-w-xl py-6 font-light tracking-tighter lg:text-start md:text-center sm:text-center xxs:text-center xxxs:text-center ">
               {part2}

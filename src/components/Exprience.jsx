@@ -18,13 +18,19 @@ const Exprience = () => {
           key={index}
           className="mb-8 flex flex-wrap lg:justify-center xxxs:mt-10 xxs:mt-10"
         >
-          <motion.div
+            <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 0.5 }}
-            className="w-full lg:w-1/4 lg:p-8 "
+            className="w-full lg:w-1/4 lg:p-8 mb-4 flex items-center md:justify-center xxs:justify-center xxxs:justify-center"
           >
-            <p className="mb-2 text-sm text-neutral-400">{experience.year}</p>
+            <img
+              className="rounded-2xl border-4 border-neutral-900 object-fill"
+              width={250}
+              height={150}
+              src={experience.link}
+              alt={experience.title}
+            />
           </motion.div>
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}

@@ -4,7 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
-import coconut from "../assets/final.png";
+import coconut from "../assets/logo.png";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className=" mb-10 flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center">
         <img
-          className="mx-2 w-22 h-14 object-contain"
+          className="mx-2 w-22 h-7 object-contain"
           src={coconut}
           alt=""
           srcset=""
@@ -28,7 +28,7 @@ const Navbar = () => {
       >
         <div className="relative inline-block">
           <a
-            href="https://linkedin.com/in/prateek-premananddd"
+            href="https://linkedin.com/in/deeptikri"
             target="_blank"
             rel="noopener noreferrer"
             onMouseEnter={() => setIsHovered(true)}
@@ -44,7 +44,7 @@ const Navbar = () => {
         </div>
         <div className="relative inline-block">
         <a
-          href="https://github.com/prateekpmd"
+          href="https://github.com/d4deepti"
           target="_blank"
           rel="noopener noreferrer"
           onMouseEnter={() => setIsHoveredg(true)}
