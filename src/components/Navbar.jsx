@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className=" mb-10 flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center">
         <img
-          className="mx-2 w-22 h-7 object-contain"
+          className="mx-2 w-22 h-7 object-contain "
           src={coconut}
           alt=""
           srcset=""
